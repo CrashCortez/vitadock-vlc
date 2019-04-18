@@ -28,6 +28,8 @@ Here is what you will need for this build.
 
 # Setup Instructions
 
+# Setup your OS
+
 1- Download Raspbian with a desktop from:
 
 https://www.raspberrypi.org/downloads/raspbian/
@@ -40,7 +42,13 @@ https://www.raspberrypi.org/downloads/raspbian/
 
 5 - Once everything is done restart your raspberry pi (system message will appear asking you to press reboot).
 
-6 - Settig up vlc for viedo streaming from the Vita
+or if you have a card with Raspbian Stretch updat and upgrade
+
+sudo apt-get update && sudo apt-get -y upgrade
+
+# Setup VLC for Vita Streaming
+
+1 - Settig up vlc for viedo streaming from the Vita
 
 # Using PC: 
 
@@ -60,17 +68,17 @@ sudo apt-get -y remove vlc libvlc-bin libvlc5 vlc-bin vlc-data vlc-l10n vlc-plug
 
 After reboot Run script vitasetup.sh (when asked click in terminal), script will automatically reboot your raspberry pi when finished.
 
-7 - After reboot move to the pi if on pc. On the Raspberry pi desktop, left click raspberry icon, then left click Sound & Video, left click VLC, left click tools, than left click preferences than right click video, than left click output box left to output letters and choose "OpenMAX IL video output", then left click save [YOU'll ONLY NEED TO DO THIS ONCE]
+2 - After reboot move to the pi if on pc. On the Raspberry pi desktop, left click raspberry icon, then left click Sound & Video, left click VLC, left click tools, than left click preferences than right click video, than left click output box left to output letters and choose "OpenMAX IL video output", then left click save [YOU'll ONLY NEED TO DO THIS ONCE]
 
-8 - Now test your "stream" 
+3 - Now test your "stream" 
 
 To launch vita stream you can A) run the 3rd script, or open vlc -> media -> open capture device -> set video device to /dev/video0 -> set live caching to 0 -> Play [BOTH METHODS MIGHT TAKE 2 ~ 3 TRIES]
 
 To Close the "stream" press the S key on your keyboard. 
 
-9 - Reboot
+4 - Reboot
 
-10 - Setup your pi as a BT Reciver and send the vits's sound to your tv via hdmi. If using a BT dongle add dtoverlay=pi3-disable-bt to your /boot/config.txt. 
+5 - Setup your pi as a BT Reciver and send the vits's sound to your tv via hdmi. If using a BT dongle add dtoverlay=pi3-disable-bt to your /boot/config.txt. 
 
 I used BaReinhard's Super-Simple-Raspberry-Pi-Audio-Receiver-Install : https://github.com/BaReinhard/Super-Simple-Raspberry-Pi-Audio-Receiver-Install
 
@@ -89,7 +97,7 @@ Device name: vitadock
 Airplay password (y/n): n
 Which Sound Card are you using? (0/1/2/3/4/5/6/7/8/9/10/11) : 0. No Sound Card
 
-10 - Reboot the pi
+16 - Reboot the pi
 
 You're Done. 
 
