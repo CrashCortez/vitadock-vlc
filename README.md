@@ -53,8 +53,8 @@ sudo apt-get update && sudo apt-get -y upgrade
 
 1 - Settig up vlc for viedo streaming from the Vita
 
-# Using PC: 
-
+Using PC: 
+-----------
 Use Putty to to connect to your Pi. copy and paste the following commands pressing enter after you paste. Now open putty and copy and paste the following:
 ```
 sudo apt-get -y remove vlc libvlc-bin libvlc5 vlc-bin vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization && cd /home/pi/Desktop && wget https://raw.githubusercontent.com/CrashCortez/vitadock/master/vitasetup.sh && wget https://raw.githubusercontent.com/CrashCortez/vitadock/master/RunPSVITA.sh && sudo chmod a+x /home/pi/Desktop/*.sh && sudo reboot
@@ -77,7 +77,16 @@ After reboot Run script vitasetup.sh (when asked click in terminal), script will
 
 To launch vita stream you can A) run the 3rd script, or open vlc -> media -> open capture device -> set video device to /dev/video0 -> set live caching to 0 -> Play [BOTH METHODS MIGHT TAKE 2 ~ 3 TRIES]
 
+or via command line
+```
+vlc v4l2:///dev/video0 :v4l2-standard= :live-caching=0
+```
 To Close the "stream" press the S key on your keyboard. 
+
+or command line
+```
+killall vlc
+```
 
 4 - Reboot
 
