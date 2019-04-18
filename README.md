@@ -42,7 +42,9 @@ https://www.raspberrypi.org/downloads/raspbian/
 
 5 - Once everything is done restart your raspberry pi (system message will appear asking you to press reboot).
 
-or if you have a card with Raspbian Stretch updat and upgrade
+or 
+
+If you have a card with Raspbian Stretch update and upgrade
 ```
 sudo apt-get update && sudo apt-get -y upgrade
 ```
@@ -54,19 +56,19 @@ sudo apt-get update && sudo apt-get -y upgrade
 # Using PC: 
 
 Use Putty to to connect to your Pi. copy and paste the following commands pressing enter after you paste. Now open putty and copy and paste the following:
-
+```
 sudo apt-get -y remove vlc libvlc-bin libvlc5 vlc-bin vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization && cd /home/pi/Desktop && wget https://raw.githubusercontent.com/CrashCortez/vitadock/master/vitasetup.sh && wget https://raw.githubusercontent.com/CrashCortez/vitadock/master/RunPSVITA.sh && sudo chmod a+x /home/pi/Desktop/*.sh && sudo reboot
-
+```
 Using putty, let your pi finish booting, and log back in then run the script, 
-
+```
 bash /home/pi/Desktop/vitasetp.sh
-
+```
 # Using Pi: 
 
 Now open terminal (black icon, last right icon next to raspberry icon in top left corner) and copy and paste the following:
-
+```
 sudo apt-get -y remove vlc libvlc-bin libvlc5 vlc-bin vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization && cd Desktop && wget https://raw.githubusercontent.com/CrashCortez/vitadock/master/vitasetup.sh && wget https://raw.githubusercontent.com/CrashCortez/vitadock/master/RunPSVITA.sh && sudo chmod a+x /home/pi/Desktop/*.sh && sudo reboot
-
+```
 After reboot Run script vitasetup.sh (when asked click in terminal), script will automatically reboot your raspberry pi when finished.
 
 2 - After reboot move to the pi if on pc. On the Raspberry pi desktop, left click raspberry icon, then left click Sound & Video, left click VLC, left click tools, than left click preferences than right click video, than left click output box left to output letters and choose "OpenMAX IL video output", then left click save [YOU'll ONLY NEED TO DO THIS ONCE]
@@ -80,14 +82,21 @@ To Close the "stream" press the S key on your keyboard.
 4 - Reboot
 
 5 - Setup your pi as a BT Reciver and send the vits's sound to your tv via hdmi. If using a BT dongle add dtoverlay=pi3-disable-bt to your /boot/config.txt. 
+```
+sudo nano /boot/config.txt
+```
+and add 
+```
+dtoverlay=pi3-disable-bt
+```
 
-I used BaReinhard's Super-Simple-Raspberry-Pi-Audio-Receiver-Install : https://github.com/BaReinhard/Super-Simple-Raspberry-Pi-Audio-Receiver-Install
-
+I used BaReinhard's Super Simple Raspberry Pi Audio Receiver Install : https://github.com/BaReinhard/Super-Simple-Raspberry-Pi-Audio-Receiver-Install
+```
 git clone https://github.com/bareinhard/super-simple-raspberry-pi-audio-receiver-install
 cd super-simple-raspberry-pi-audio-receiver-install
 git checkout stretch-fix
 sudo ./install.sh
-
+```
 During the setup it will ask you some questions. Here were my answers.
 
 Answers:
@@ -113,8 +122,21 @@ If you want a premade plug and play system check out X Corra's indegogo: https:/
 - You can use xerpi's ds3/4 plugin to use controller with vita
 
 - For audio I recommend usb bluetooth dongle but you can use the onboard BT (testing this), if you do also trun off wifi. Add dtoverlay=pi3-disable-wifi to your /boot/config.txt. 
+```
+sudo nano /boot/config.txt
+```
+and add 
+```
+dtoverlay=pi3-disable-wifi
+```
+Save and exit
 
-Huge Thanks to X Corra and Xerpi.
+- Find a dock and get it printed
+https://www.thingiverse.com/search?q=vita+raspberry+pi&dwh=875cb8a1f5323f8
+
+# Huge Thanks to X Corra and Xerpi.
+
+--------------------------------------------------------------------------
 
 # Releases: 
 
