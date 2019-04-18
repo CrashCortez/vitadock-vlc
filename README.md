@@ -3,13 +3,7 @@ I adjusted X Corra's Video Streaming instructions.
 
 https://www.reddit.com/r/vitahacks/comments/a7x735/psvitaopi_vita_video_out_with_raspberry_pi/
 
-Here is the script update I promised in the initial tutorial 😉, also I apologize it 
-
-took so long, but I was doing this and working on Switch to vita bit I didn't expect 
-
-that switch to vita software side will be so complicated so that took most of my time, 
-
-again my apologies 😕
+here is what you will need for this build.
 
 - Hacked PSVITA Henkaku/enso/h-encore with uvc plugin by xerpi
 
@@ -35,7 +29,7 @@ sandisk card got corrupted so I do not recommend them)
 
 - WIFI OR LAN (only first time)
 
-- Usb Bluetooth dongle
+- Usb Bluetooth dongle is recomended but you can do this with out it.
 
 
 --------------------------------------------------------------------------------------
@@ -84,7 +78,7 @@ To Close the "stream" press the S key on your keyboard.
 
 9 - Reboot
 
-10 - Setup your pi as a BT Reciver and send the vits's sound to your tv via hdmi. 
+10 - Setup your pi as a BT Reciver and send the vits's sound to your tv via hdmi. If using a BT dongle add dtoverlay=pi3-disable-bt to your /boot/config.txt. 
 
 I used BaReinhard's Super-Simple-Raspberry-Pi-Audio-Receiver-Install : https://github.com/BaReinhard/Super-Simple-Raspberry-Pi-Audio-Receiver-Install
 
