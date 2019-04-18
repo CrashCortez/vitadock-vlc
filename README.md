@@ -122,6 +122,7 @@ Device name: vitadock
 Airplay password (y/n): n
 Which Sound Card are you using? (0/1/2/3/4/5/6/7/8/9/10/11) : 0. No Sound Card
 
+
 6 - Reboot the pi when it is finished.
 --------
 You're Done. 
