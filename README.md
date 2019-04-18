@@ -33,6 +33,7 @@ sandisk card got corrupted so I do not recommend them)
 
 
 --------------------------------------------------------------------------------------
+# Setup Instructions
 
 1- Download Raspbian with a desktop from:
 
@@ -106,8 +107,9 @@ Launch the RunPSVITA.sh and the connect to the dock via Bluetooth, grab a ps4 co
 Get crafty and set up a momentary on/off swith and set the RunVITA.sh to run at boot.
 --------------------------------------------------------------------------------------
 
-Notes :
 
+# Notes :
+--------------------------------------------------------------------------------------
 - Runs upscaled 1080 30fps, ~2 frame latency
 
 - You can use xerpi's ds3/4 plugin to use controller with vita
