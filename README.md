@@ -32,7 +32,6 @@ sandisk card got corrupted so I do not recommend them)
 - Usb Bluetooth dongle is recomended but you can do this with out it.
 
 
---------------------------------------------------------------------------------------
 # Setup Instructions
 
 1- Download Raspbian with a desktop from:
@@ -104,10 +103,8 @@ You're Done.
 
 Launch the RunPSVITA.sh and the connect to the dock via Bluetooth, grab a ps4 controller and sit on your couch and play your vita on your tv.
 
---------------------------------------------------------------------------------------
-
 # Notes :
---------------------------------------------------------------------------------------
+
 - Runs upscaled 1080 30fps, ~2 frame latency
 
 - You can use xerpi's ds3/4 plugin to use controller with vita
