@@ -104,6 +104,9 @@ dtoverlay=pi3-disable-bt
 Then reboot 
 
 I used BaReinhard's Super Simple Raspberry Pi Audio Receiver Install : https://github.com/BaReinhard/Super-Simple-Raspberry-Pi-Audio-Receiver-Install
+
+Once again use Putty or your Pi's terminal
+-------------
 ```
 git clone https://github.com/bareinhard/super-simple-raspberry-pi-audio-receiver-install
 cd super-simple-raspberry-pi-audio-receiver-install
