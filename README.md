@@ -116,10 +116,10 @@ During the setup it will ask you some questions. Here were my answers.
 
 Answers:
 
-Which installation would you like to choose? (1/2/3/4/5/6) : 2. Install the Raspberry Pi Audio Receiver Home Installation
-Do you want all the Devices to use the same name? (y/n) : y
-Device name: vitadock
-Airplay password (y/n): n
+Which installation would you like to choose? (1/2/3/4/5/6) : 2. Install the Raspberry Pi Audio Receiver Home Installation 
+Do you want all the Devices to use the same name? (y/n) : y 
+Device name: vitadock 
+Airplay password (y/n): n 
 Which Sound Card are you using? (0/1/2/3/4/5/6/7/8/9/10/11) : 0. No Sound Card
 
 
