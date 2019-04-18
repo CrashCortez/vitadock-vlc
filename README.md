@@ -15,9 +15,7 @@ Here is what you will need for this build.
 
 - Micro sd MIN 16GB for Raspberry PI (I used a 16gb Scandisk Ultra, but X Corra recommends using a slower sd card as faster ones tend to fail a lot, tested about 9 sd cards, 2 fastest ones got corrupted, also 1 sandisk card got corrupted so he does not recommend them. I did not have this problem over 5 differt cards)
 
-- Any archiving software that has extracting functionality on
-
-- Mouse, keyboard, hdmi cable for for raspberry pi
+- Mouse, keyboard, hdmi cable for raspberry pi
 
 - Vita usb cable
 
