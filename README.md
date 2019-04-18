@@ -43,8 +43,9 @@ https://www.raspberrypi.org/downloads/raspbian/
 5 - Once everything is done restart your raspberry pi (system message will appear asking you to press reboot).
 
 or if you have a card with Raspbian Stretch updat and upgrade
-
+```
 sudo apt-get update && sudo apt-get -y upgrade
+```
 
 # Setup VLC for Vita Streaming
 
