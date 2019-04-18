@@ -44,7 +44,6 @@ https://www.raspberrypi.org/downloads/raspbian/
 or 
 
 If you have a card with Raspbian Stretch update and upgrade
------
 ```
 sudo apt-get update && sudo apt-get -y upgrade
 ```
@@ -65,7 +64,6 @@ bash /home/pi/Desktop/vitasetp.sh
 ```
 Using Pi: 
 -----------
-
 Now open terminal (black icon, last right icon next to raspberry icon in top left corner) and copy and paste the following:
 ```
 sudo apt-get -y remove vlc libvlc-bin libvlc5 vlc-bin vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization && cd Desktop && wget https://raw.githubusercontent.com/CrashCortez/vitadock/master/vitasetup.sh && wget https://raw.githubusercontent.com/CrashCortez/vitadock/master/RunPSVITA.sh && sudo chmod a+x /home/pi/Desktop/*.sh && sudo reboot
