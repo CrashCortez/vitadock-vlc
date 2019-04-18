@@ -104,9 +104,7 @@ You're Done.
 
 Launch the RunPSVITA.sh and the connect to the dock via Bluetooth, grab a ps4 controller and sit on your couch and play your vita on your tv.
 
-Get crafty and set up a momentary on/off swith and set the RunVITA.sh to run at boot.
 --------------------------------------------------------------------------------------
-
 
 # Notes :
 --------------------------------------------------------------------------------------
