@@ -25,7 +25,6 @@ Here is what you will need for this build.
 
 - Usb Bluetooth dongle is recomended but you can do this with out it.
 
-
 # Setup Instructions
 
 # Setup your OS
@@ -63,7 +62,8 @@ Using putty, let your pi finish booting, and log back in then run the script,
 ```
 bash /home/pi/Desktop/vitasetp.sh
 ```
-# Using Pi: 
+Using Pi: 
+-----------
 
 Now open terminal (black icon, last right icon next to raspberry icon in top left corner) and copy and paste the following:
 ```
@@ -83,14 +83,17 @@ vlc v4l2:///dev/video0 :v4l2-standard= :live-caching=0
 ```
 To Close the "stream" press the S key on your keyboard. 
 
-or command line
+or via command line
 ```
 killall vlc
 ```
 
 4 - Reboot
 
-5 - Setup your pi as a BT Reciver and send the vits's sound to your tv via hdmi. If using a BT dongle add dtoverlay=pi3-disable-bt to your /boot/config.txt. 
+5 - Setup your pi as a BT Reciver and send the vits's sound to your tv via hdmi. 
+
+If using a BT dongle add dtoverlay=pi3-disable-bt to your /boot/config.txt. 
+once again use putty or terminal on the raspberry pi
 ```
 sudo nano /boot/config.txt
 ```
@@ -98,6 +101,7 @@ and add
 ```
 dtoverlay=pi3-disable-bt
 ```
+Then reboot 
 
 I used BaReinhard's Super Simple Raspberry Pi Audio Receiver Install : https://github.com/BaReinhard/Super-Simple-Raspberry-Pi-Audio-Receiver-Install
 ```
@@ -116,7 +120,7 @@ Device name: vitadock
 Airplay password (y/n): n
 Which Sound Card are you using? (0/1/2/3/4/5/6/7/8/9/10/11) : 0. No Sound Card
 
-16 - Reboot the pi
+16 - Reboot the pi when it is finished.
 
 You're Done. 
 
@@ -149,4 +153,4 @@ https://www.thingiverse.com/search?q=vita+raspberry+pi&dwh=875cb8a1f5323f8
 
 # Releases: 
 
-Coming soon.
+Coming soon. Out for testing.
