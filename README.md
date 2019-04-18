@@ -1,9 +1,7 @@
 # Vita Dock
 I adjusted X Corra's Video Streaming instructions.
 
-https://www.reddit.com/r/vitahacks/comments/a7x735/psvitaopi_vita_video_out_with_raspb
-
-erry_pi/
+https://www.reddit.com/r/vitahacks/comments/a7x735/psvitaopi_vita_video_out_with_raspberry_pi/
 
 Here is the script update I promised in the initial tutorial 😉, also I apologize it 
 
