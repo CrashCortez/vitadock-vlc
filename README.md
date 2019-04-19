@@ -1,4 +1,9 @@
 # Vita Dock DIY
+
+# NOTE
+This build uses force_turbo=1 which Will void the warranty on your Pi! 
+
+
 I adjusted X Corra's Video Streaming instructions.
 
 https://www.reddit.com/r/vitahacks/comments/a7x735/psvitaopi_vita_video_out_with_raspberry_pi/
