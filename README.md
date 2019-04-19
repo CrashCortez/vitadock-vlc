@@ -1,6 +1,7 @@
 # Vita Dock DIY
 
-# NOTE
+Warning!
+--------
 This build uses force_turbo=1 which Will void the warranty on your Pi! 
 
 
