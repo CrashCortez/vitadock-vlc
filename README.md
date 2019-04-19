@@ -21,7 +21,7 @@ Here is what you will need for this build.
 
 - WIFI OR LAN (only first time)
 
-- Usb Bluetooth dongle is recomended but you can do this with out it.
+- Usb Bluetooth dongle
 
 # Setup Instructions
 
@@ -139,15 +139,7 @@ If you want a premade plug and play system check out X Corra's indegogo: https:/
 
 - You can use xerpi's ds3/4 plugin to use controller with vita
 
-- For audio I recommend usb bluetooth dongle but you can use the onboard BT (testing this), if you do also trun off wifi. Add dtoverlay=pi3-disable-wifi to your /boot/config.txt. 
-```
-sudo nano /boot/config.txt
-```
-and add 
-```
-dtoverlay=pi3-disable-wifi
-```
-Save and exit
+- For audio I recommend usb bluetooth because you cannot use the onboard BT (testing this). using a usb sound card has lots of additional white noise and distortion.
 
 - Find a dock and get it printed
 https://www.thingiverse.com/search?q=vita+raspberry+pi&dwh=875cb8a1f5323f8
