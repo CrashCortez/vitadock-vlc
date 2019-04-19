@@ -97,8 +97,9 @@ killall vlc
 ------
 5 - Setup your pi as a BT Reciver and send the vits's sound to your tv via hdmi. 
 ------
-If using a BT dongle add dtoverlay=pi3-disable-bt to your /boot/config.txt. 
-once again use putty or terminal on the raspberry pi
+Since we are using a BT dongle add dtoverlay=pi3-disable-bt to your /boot/config.txt.
+
+Once again use putty or terminal on the raspberry pi
 ```
 sudo nano /boot/config.txt
 ```
@@ -147,7 +148,7 @@ If you want a premade plug and play system check out X Corra's indegogo: https:/
 
 - You can use xerpi's ds3/4 plugin to use controller with vita
 
-- For audio I recommend usb bluetooth because you cannot use the onboard BT (testing this). using a usb sound card has lots of additional white noise and distortion.
+- For audio I recommend usb bluetooth because you cannot use the onboard BT (testing this). using a usb sound card has lots of additional white noise and distortion, feel free to try on your own, if you figure it out, please let me know.
 
 - Find a dock and get it printed
 https://www.thingiverse.com/search?q=vita+raspberry+pi&dwh=875cb8a1f5323f8
