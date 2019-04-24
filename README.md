@@ -1,5 +1,4 @@
 # Vita Dock DIY
----------------------------------------------------------------
 
 I adjusted X Corra's Video Streaming instructions.
 
