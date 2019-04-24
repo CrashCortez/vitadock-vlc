@@ -85,11 +85,6 @@ vlc v4l2:///dev/video0 :v4l2-standard= :live-caching=0
 ```
 To Close the "stream" press the S key on your keyboard. 
 
-or via command line
-```
-killall vlc
-```
-
 4 - Setup your pi as a BT Reciver and send the vits's sound to your tv via hdmi. 
 ------
 Since we are using a BT dongle add dtoverlay=pi3-disable-bt to your /boot/config.txt.
