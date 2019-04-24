@@ -2,9 +2,7 @@
 
 This is xCorra's VLC version, if you wnat Crash's MPV version [click here](https://github.com/CrashCortez/vitadock-setup)
 
-I adjusted xCorra's Video Streaming instructions.
-
-https://www.reddit.com/r/vitahacks/comments/a7x735/psvitaopi_vita_video_out_with_raspberry_pi/
+I adjusted xCorra's Video Streaming [instructions](https://www.reddit.com/r/vitahacks/comments/a7x735/psvitaopi_vita_video_out_with_raspberry_pi/).
 
 [VitaDock video sneak peak](https://youtu.be/uhU4KG8FZ6s)
 
