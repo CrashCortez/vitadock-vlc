@@ -6,6 +6,8 @@ I adjusted xCorra's Video Streaming [instructions](https://www.reddit.com/r/vita
 
 [VitaDock video sneak peak](https://youtu.be/uhU4KG8FZ6s)
 
+[xCorra VitaDock Video Showcase]https://www.youtube.com/watch?v=do6uWdvBSWk
+
 Here is what you will need for this build.
 ----------
 - Hacked PSVITA Henkaku/enso/h-encore with [udcd-uvc](https://github.com/xerpi/vita-udcd-uvc) plugin by xerpi
