@@ -135,6 +135,18 @@ You're Done.
 
 Connect your Vita to the Pi, launch the RunPSVITA.sh and the connect to the vitadock via Bluetooth for sound, grab a ps4 controller and sit on your couch and play your vita on your tv.
 
+How to exit VLC
+----
+With Desktop
+
+Hit S on your keyboard, and shutdown normally.
+
+With command line (Raspbian lite or via SSH)
+```
+sudo shutdown
+```
+
+
 # Notes :
 
 If you want a premade plug and play system check out [xCorra's indegogo](https://www.indiegogo.com/projects/psvita-dock#/)
