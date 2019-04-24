@@ -32,7 +32,7 @@ Here is what you will need for this build.
 
 1- Download Raspbian lite or with a desktop from:
 -------
-https://www.raspberrypi.org/downloads/raspbian/
+[Raspberrypi.org downloads](https://www.raspberrypi.org/downloads/raspbian/), remember to use the lite or desktop, NOT the desktop with recomended software.
 
 2 - Using Win32diskimager or etcher "write" the unzipped Raspbian image to your SD Card. 
 ------
@@ -137,7 +137,7 @@ Connect your Vita to the Pi, launch the RunPSVITA.sh and the connect to the vita
 
 # Notes :
 
-If you want a premade plug and play system check out xCorra's indegogo: https://www.indiegogo.com/projects/psvita-dock#/
+If you want a premade plug and play system check out [xCorra's indegogo](https://www.indiegogo.com/projects/psvita-dock#/)
 
 - Runs upscaled 1080 30fps, ~2 frame latency
 
@@ -145,8 +145,7 @@ If you want a premade plug and play system check out xCorra's indegogo: https://
 
 - For audio I recommend usb bluetooth because you cannot use the onboard BT (testing this). using a usb sound card has lots of additional white noise and distortion, feel free to try on your own, if you figure it out, please let me know.
 
-- Find a dock and get it printed
-https://www.thingiverse.com/search?q=vita+raspberry+pi&dwh=875cb8a1f5323f8
+- Find a dock and get it printed on [Thingverse](https://www.thingiverse.com/search?q=vita+raspberry+pi&dwh=875cb8a1f5323f8)
 
 # Huge Thanks to xCorra and xerpi.
 
