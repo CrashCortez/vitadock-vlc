@@ -6,6 +6,8 @@ I adjusted X Corra's Video Streaming instructions.
 
 https://www.reddit.com/r/vitahacks/comments/a7x735/psvitaopi_vita_video_out_with_raspberry_pi/
 
+[VitaDock video sneak peak](https://youtu.be/uhU4KG8FZ6s)
+
 Here is what you will need for this build.
 ----------
 - Hacked PSVITA Henkaku/enso/h-encore with uvc plugin by xerpi
