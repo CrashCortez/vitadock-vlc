@@ -110,6 +110,8 @@ I used [BaReinhard's Super Simple Raspberry Pi Audio Receiver Install](https://g
 
 Once again use Putty or your Pi's terminal
 -------------
+
+Copy and paste the following, and press enter, Then follow the on screen prompts.
 ```
 git clone https://github.com/bareinhard/super-simple-raspberry-pi-audio-receiver-install
 cd super-simple-raspberry-pi-audio-receiver-install
