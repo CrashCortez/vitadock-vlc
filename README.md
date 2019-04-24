@@ -30,7 +30,7 @@ Here is what you will need for this build.
 
 # Setup your OS
 
-1- Download Raspbian with a desktop from:
+1- Download Raspbian lite or with a desktop from:
 -------
 https://www.raspberrypi.org/downloads/raspbian/
 
@@ -44,7 +44,7 @@ https://www.raspberrypi.org/downloads/raspbian/
 ---------
 or 
 
-If you have a card with Raspbian Stretch update and upgrade
+If you have a card with Raspbian Stretch or used the lite version update and upgrade
 ```
 sudo apt-get update && sudo apt-get -y upgrade
 ```
