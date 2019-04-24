@@ -16,7 +16,7 @@ Here is what you will need for this build.
 
 - Raspberry PI (tested only on pi 3 b+, all pi 3 and all pi 2 version will work, others like zero (testing) etc won't because the gpu isn’t powerful enough)
 
-- 5v 2.5a amp power supply (best would be 3 amp charger if you have it)
+- 5v 2a amp power supply minimum (The best option would be to use a 3 amp charger if you have it)
 
 - Micro sd MIN 16GB for Raspberry PI (I used a 16gb Scandisk Ultra, but xCorra recommends using a slower sd card as faster ones tend to fail a lot, tested about 9 sd cards, 2 fastest ones got corrupted, also 1 sandisk card got corrupted so he does not recommend them. I did not have this problem over 5 differt cards)
 
@@ -36,7 +36,7 @@ Here is what you will need for this build.
 -------
 [Raspberrypi.org downloads](https://www.raspberrypi.org/downloads/raspbian/), remember to use the lite or desktop, NOT the desktop with recomended software.
 
-2 - Using Win32diskimager or etcher "write" the unzipped Raspbian image to your SD Card. 
+2 - Using Win32diskimager or etcher, "write" the unzipped Raspbian image to your SD Card. 
 ------
 3 - Once done remove the SD Card from PC and put your card in you pi and boot it up.
 ------
@@ -106,8 +106,6 @@ dtoverlay=pi3-disable-bt
 ```
 Then reboot 
 
-I used [BaReinhard's Super Simple Raspberry Pi Audio Receiver Install](https://github.com/BaReinhard/Super-Simple-Raspberry-Pi-Audio-Receiver-Install)
-
 Once again use Putty or your Pi's terminal
 -------------
 
@@ -148,6 +146,8 @@ If you want a premade plug and play system check out [xCorra's indegogo](https:/
 - You can use xerpi's ds3/4 plugin to use controller with vita
 
 - For audio I recommend usb bluetooth because you cannot use the onboard BT (testing this). using a usb sound card has lots of additional white noise and distortion, feel free to try on your own, if you figure it out, please let me know.
+
+- I used [BaReinhard's Super Simple Raspberry Pi Audio Receiver Install](https://github.com/BaReinhard/Super-Simple-Raspberry-Pi-Audio-Receiver-Install) for the BT Sound setup, all credit for the BT sound setup goes to him.
 
 - Find a dock and get it printed on [Thingverse](https://www.thingiverse.com/search?q=vita+raspberry+pi&dwh=875cb8a1f5323f8)
 
