@@ -1,8 +1,8 @@
 # Vita Dock DIY
 
-This is X Corra's VLC version, if you wnat Crash's MPV version [click here](https://github.com/CrashCortez/vitadock-setup)
+This is xCorra's VLC version, if you wnat Crash's MPV version [click here](https://github.com/CrashCortez/vitadock-setup)
 
-I adjusted X Corra's Video Streaming instructions.
+I adjusted xCorra's Video Streaming instructions.
 
 https://www.reddit.com/r/vitahacks/comments/a7x735/psvitaopi_vita_video_out_with_raspberry_pi/
 
@@ -18,7 +18,7 @@ Here is what you will need for this build.
 
 - 5v 2.5a amp power supply (best would be 3 amp charger if you have it)
 
-- Micro sd MIN 16GB for Raspberry PI (I used a 16gb Scandisk Ultra, but X Corra recommends using a slower sd card as faster ones tend to fail a lot, tested about 9 sd cards, 2 fastest ones got corrupted, also 1 sandisk card got corrupted so he does not recommend them. I did not have this problem over 5 differt cards)
+- Micro sd MIN 16GB for Raspberry PI (I used a 16gb Scandisk Ultra, but xCorra recommends using a slower sd card as faster ones tend to fail a lot, tested about 9 sd cards, 2 fastest ones got corrupted, also 1 sandisk card got corrupted so he does not recommend them. I did not have this problem over 5 differt cards)
 
 - Mouse, keyboard, hdmi cable for raspberry pi
 
@@ -139,7 +139,7 @@ Connect your Vita to the Pi, launch the RunPSVITA.sh and the connect to the vita
 
 # Notes :
 
-If you want a premade plug and play system check out X Corra's indegogo: https://www.indiegogo.com/projects/psvita-dock#/
+If you want a premade plug and play system check out xCorra's indegogo: https://www.indiegogo.com/projects/psvita-dock#/
 
 - Runs upscaled 1080 30fps, ~2 frame latency
 
@@ -150,7 +150,7 @@ If you want a premade plug and play system check out X Corra's indegogo: https:/
 - Find a dock and get it printed
 https://www.thingiverse.com/search?q=vita+raspberry+pi&dwh=875cb8a1f5323f8
 
-# Huge Thanks to X Corra and Xerpi.
+# Huge Thanks to xCorra and xerpi.
 
 --------------------------------------------------------------------------
 
