@@ -12,7 +12,7 @@ Here is what you will need for this build.
 
 - 2 hours of your time
 
-- Raspberry PI (tested only on pi 3 b+, all pi 3 and all pi 2 version will work, others like zero etc. wontbecause the gpu isn’t powerful enough)
+- Raspberry PI (tested only on pi 3 b+, all pi 3 and all pi 2 version will work, others like zero (testing) etc won't because the gpu isn’t powerful enough)
 
 - 5v 2.5a amp power supply (best would be 3 amp charger if you have it)
 
