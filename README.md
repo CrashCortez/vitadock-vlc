@@ -90,9 +90,7 @@ or via command line
 killall vlc
 ```
 
-4 - Reboot
-------
-5 - Setup your pi as a BT Reciver and send the vits's sound to your tv via hdmi. 
+4 - Setup your pi as a BT Reciver and send the vits's sound to your tv via hdmi. 
 ------
 Since we are using a BT dongle add dtoverlay=pi3-disable-bt to your /boot/config.txt.
 
@@ -131,7 +129,7 @@ Airplay password (y/n): n
 Which Sound Card are you using? (0/1/2/3/4/5/6/7/8/9/10/11) : 0. No Sound Card
 
 
-6 - Reboot the pi when it is finished.
+5 - Reboot the pi when it is finished.
 --------
 You're Done. 
 
