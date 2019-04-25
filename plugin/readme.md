@@ -8,8 +8,6 @@ Download and installation
 - Compilation: [vitasdk](https://vitasdk.org/) is needed.
 -----
 
-
-
 Installation:
 
  - Copy udcd_uvc.skprx to your PSVita
