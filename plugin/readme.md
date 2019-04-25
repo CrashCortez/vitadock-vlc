@@ -2,11 +2,11 @@ Download and installation
  - Download:
 ------
 
-- Compilation
+- Compilation: [vitasdk](https://vitasdk.org/) is needed.
 -----
 
-[Vitasdk](https://vitasdk.org/) is needed.
-------
+
+
 Installation:
 
  - Copy udcd_uvc.skprx to your PSVita
