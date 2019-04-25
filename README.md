@@ -174,5 +174,7 @@ If you want a premade plug and play system check out [xCorra's indegogo](https:/
 --------------------------------------------------------------------------
 
 # Releases: 
+Pi Zero/Zero W premade Image: 
+[Download Link](https://drive.google.com/file/d/1CVzXpNHRVgTN4eUmLZm2jnp9T2DWijxd/view)
 
-Coming soon. Out for testing.
+Pi 3 B/B+ Image: Coming soon. Out for testing.
