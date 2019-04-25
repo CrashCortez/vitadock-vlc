@@ -174,9 +174,8 @@ If you want a premade plug and play system check out [xCorra's indegogo](https:/
 --------------------------------------------------------------------------
 
 # Releases: 
- Optimized 60 fps udcd_uvc.skprx [Download Link](https://github.com/CrashCortez/vitadock-vlc/blob/master/plugin/udcd_uvc.skprx)
+- Optimized udcd_uvc.skprx for 60 fps: [Download Link](https://github.com/CrashCortez/vitadock-vlc/blob/master/plugin/udcd_uvc.skprx)
 
-Pi Zero/Zero W premade Image: 
-[Download Link](https://drive.google.com/file/d/1CVzXpNHRVgTN4eUmLZm2jnp9T2DWijxd/view)
+- Pi Zero/Zero W premade Image: [Download Link](https://drive.google.com/file/d/1CVzXpNHRVgTN4eUmLZm2jnp9T2DWijxd/view)
 
-Pi 3 B/B+ Image: Coming soon. Out for testing.
+- Pi 3 B/B+ Image: Coming soon. Out for testing.
