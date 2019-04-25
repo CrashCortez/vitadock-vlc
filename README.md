@@ -51,7 +51,7 @@ If you have a card with Raspbian Stretch or used the lite version update and upg
 sudo apt-get update && sudo apt-get -y upgrade
 ```
 6 - (Optional) If you want to use [Putty](https://www.putty.org/), here is a quick [tutorial](https://youtu.be/h3_zNvAvJtE).
-
+---------
 Enable SSH on the pi, if you want to use a pc and putty.
 ---------
 
