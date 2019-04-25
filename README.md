@@ -52,7 +52,7 @@ sudo apt-get update && sudo apt-get -y upgrade
 ```
 6 - (Optional) If you want to use [Putty](https://www.putty.org/), here is a quick [tutorial](https://youtu.be/h3_zNvAvJtE).
 ---------
-Enable SSH on the pi, so you can use a PC to input these commands.
+Putty allows you to use a PC to input these commands. Don't forget to enable SSH on the pi. 
 ---------
 
 # Setup VLC for Vita Streaming
