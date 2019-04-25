@@ -40,7 +40,7 @@ Here is what you will need for this build.
 ------
 3 - Once done remove the SD Card from PC and put your card in you pi and boot it up.
 ------
-4 - After the first boot set your time zone, language etc. [AND DO NOT SKIP UPDATE ONCE ASKED!!!] Also enable SSH if you want to use a pc and putty to help set this up.
+4 - After the first boot set your time zone, language etc. [DO NOT SKIP UPDATE ONCE ASKED] 
 --------
 5 - Once everything is done restart your raspberry pi (system message will appear asking you to press reboot).
 ---------
@@ -51,6 +51,7 @@ If you have a card with Raspbian Stretch or used the lite version update and upg
 sudo apt-get update && sudo apt-get -y upgrade
 ```
 6 - (Optional) If you want to use [Putty](https://www.putty.org/), here is a quick [tutorial](https://youtu.be/h3_zNvAvJtE)
+Enable SSH on the pi, if you want to use a pc and putty.
 ---------
 
 # Setup VLC for Vita Streaming
@@ -59,11 +60,11 @@ sudo apt-get update && sudo apt-get -y upgrade
 ----------
 Using PC: 
 -----------
-Use Putty to to connect to your Pi. copy and paste the following commands pressing enter after you paste. Now open putty and copy and paste the following:
+Use Putty to connect to your Pi. Copy and paste the following commands, pressing enter after you paste:
 ```
 sudo apt-get -y remove vlc libvlc-bin libvlc5 vlc-bin vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization && cd /home/pi/Desktop && wget https://raw.githubusercontent.com/CrashCortez/vitadock/master/vitasetup.sh && wget https://raw.githubusercontent.com/CrashCortez/vitadock/master/RunPSVITA.sh && sudo chmod a+x /home/pi/Desktop/*.sh && sudo reboot
 ```
-Using putty, let your pi finish booting, and log back in then run the script, 
+Let your pi finish booting, then Using putty log back in, then run the the vitasetup.sh script. Copy and paste the following 
 ```
 cd /home/pi/Desktop && bash vitasetup.sh
 ```
@@ -73,13 +74,22 @@ Now open terminal (black icon, last right icon next to raspberry icon in top lef
 ```
 sudo apt-get -y remove vlc libvlc-bin libvlc5 vlc-bin vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization && cd Desktop && wget https://raw.githubusercontent.com/CrashCortez/vitadock/master/vitasetup.sh && wget https://raw.githubusercontent.com/CrashCortez/vitadock/master/RunPSVITA.sh && sudo chmod a+x /home/pi/Desktop/*.sh && sudo reboot
 ```
-After reboot Run script vitasetup.sh (when asked click in terminal), script will automatically reboot your raspberry pi when finished.
+After reboot, Run script vitasetup.sh (when asked click in terminal), script will automatically reboot your raspberry pi when finished.
 
-2 - After reboot move to the pi if on pc. On the Raspberry pi desktop, left click raspberry icon, then left click Sound & Video, left click VLC, left click tools, than left click preferences than right click video, than left click output box left to output letters and choose "OpenMAX IL video output", then left click save [YOU'll ONLY NEED TO DO THIS ONCE]
--------
+2 - After reboot move to the pi, if you were using putty on a pc. 
+--------
+
+On the Raspberry pi desktop, left click raspberry icon, then left click Sound & Video, left click VLC, left click tools, than left click preferences than right click video, than left click output box left to output letters and choose "OpenMAX IL video output", then left click save [YOU'll ONLY NEED TO DO THIS ONCE]
+
 3 - Now test your "stream" 
 ------
-To launch vita stream you can A) run the 3rd script, or open vlc -> media -> open capture device -> set video device to /dev/video0 -> set live caching to 0 -> Play [BOTH METHODS MIGHT TAKE 2 ~ 3 TRIES]
+To launch the vita "stream" you can: 
+
+A) Run the RunPSVITA.sh script 
+
+B) Open vlc -> media -> open capture device -> set video device to /dev/video0 -> set live caching to 0 -> Play 
+
+[BOTH METHODS MIGHT TAKE 2 ~ 3 TRIES]
 
 or via command line
 ```
@@ -99,7 +109,7 @@ and add
 ```
 dtoverlay=pi3-disable-bt
 ```
-Then reboot 
+Then reboot. 
 
 Once again use Putty or your Pi's terminal
 -------------
@@ -130,7 +140,7 @@ Which Sound Card are you using? (0/1/2/3/4/5/6/7/8/9/10/11) : 0. No Sound Card
 --------
 You're Done. 
 
-Connect your Vita to the Pi, launch the RunPSVITA.sh and the connect to the vitadock via Bluetooth for sound, grab a ps4 controller and sit on your couch and play your vita on your tv.
+Connect your Vita to the Pi, launch the RunPSVITA.sh for video, and connect to the vitadock via Bluetooth for sound Grab a ps4 controller and sit on your couch and play your vita on your tv.
 
 How to shutdown the system
 ----
