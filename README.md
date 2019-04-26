@@ -6,7 +6,7 @@ I adjusted xCorra's Video Streaming [instructions](https://www.reddit.com/r/vita
 
 [xCorra VitaDock Video Showcase](https://www.youtube.com/watch?v=do6uWdvBSWk)
 
-[VitaDock video sneak peak](https://youtu.be/uhU4KG8FZ6s)
+[VitaDock video + sound sneak peak](https://youtu.be/uhU4KG8FZ6s)
 
 Here is what you will need for this build.
 ----------
