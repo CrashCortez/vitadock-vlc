@@ -110,6 +110,8 @@ and add
 ```
 dtoverlay=pi3-disable-bt
 ```
+Save (CTRL +x), hit Y, then enter.
+
 Then reboot. 
 
 Once again use Putty or your Pi's terminal
