@@ -67,7 +67,7 @@ sudo apt-get -y remove vlc libvlc-bin libvlc5 vlc-bin vlc-data vlc-l10n vlc-plug
 ```
 Let your pi finish booting, then Using putty log back in, then run the the vitasetup.sh script. Copy and paste the following 
 ```
-cd /home/pi/Desktop && bash vitasetup.sh
+cd /home/pi/Desktop && sudo bash vitasetup.sh
 ```
 Using Pi: 
 -----------
