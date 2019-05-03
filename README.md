@@ -54,11 +54,12 @@ sudo apt-get update && sudo apt-get -y upgrade
 ---------
 Putty allows you to use a PC to input these commands. Don't forget to enable SSH on the pi. 
 ---------
+
 # - Setup your pi as a BT Reciver and send the vits's sound to your tv via hdmi. 
 ------
 Since we are using a BT dongle add dtoverlay=pi3-disable-bt to your /boot/config.txt.
 
-Once again use putty or terminal on the raspberry pi
+Use putty or terminal on the raspberry pi
 ```
 sudo nano /boot/config.txt
 ```
@@ -73,14 +74,14 @@ Then reboot.
 Once again use Putty or your Pi's terminal
 -------------
 
-Copy and paste the following, and press enter, Then follow the on screen prompts.
+- Copy and paste the following, and press enter, Then follow the on screen prompts.
 ```
 git clone https://github.com/bareinhard/super-simple-raspberry-pi-audio-receiver-install
 cd super-simple-raspberry-pi-audio-receiver-install
 git checkout stretch-fix
 sudo ./install.sh
 ```
-During the setup it will ask you some questions. Here were my answers.
+- During the setup it will ask you some questions. Here were my answers.
 
 Answers:
 
@@ -95,7 +96,7 @@ Airplay password (y/n): n
 Which Sound Card are you using? (0/1/2/3/4/5/6/7/8/9/10/11) : 0. No Sound Card
 
 
-5 - Reboot the pi when it is finished.
+- Reboot the pi when it is finished.
 
 # Setup VLC for Vita Streaming
 
