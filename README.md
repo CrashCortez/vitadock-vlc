@@ -98,8 +98,6 @@ Which Sound Card are you using? (0/1/2/3/4/5/6/7/8/9/10/11) : 0. No Sound Card
 
 # Setup VLC for Vita Streaming
 
-1 - Settig up vlc for viedo streaming from the Vita
-----------
 Using PC: 
 
 - Use Putty to connect to your Pi. Copy and paste the following commands, pressing enter after you paste:
