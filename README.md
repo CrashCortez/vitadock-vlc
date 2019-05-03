@@ -30,7 +30,7 @@ Here is what you will need for this build.
 
 # Setup Instructions
 
-# Setup your OS
+# - Setup your OS
 
 1- Download Raspbian lite or with a desktop from:
 -------
@@ -54,6 +54,48 @@ sudo apt-get update && sudo apt-get -y upgrade
 ---------
 Putty allows you to use a PC to input these commands. Don't forget to enable SSH on the pi. 
 ---------
+# - Setup your pi as a BT Reciver and send the vits's sound to your tv via hdmi. 
+------
+Since we are using a BT dongle add dtoverlay=pi3-disable-bt to your /boot/config.txt.
+
+Once again use putty or terminal on the raspberry pi
+```
+sudo nano /boot/config.txt
+```
+and add 
+```
+dtoverlay=pi3-disable-bt
+```
+Save (CTRL +x), hit Y, then enter.
+
+Then reboot. 
+
+Once again use Putty or your Pi's terminal
+-------------
+
+Copy and paste the following, and press enter, Then follow the on screen prompts.
+```
+git clone https://github.com/bareinhard/super-simple-raspberry-pi-audio-receiver-install
+cd super-simple-raspberry-pi-audio-receiver-install
+git checkout stretch-fix
+sudo ./install.sh
+```
+During the setup it will ask you some questions. Here were my answers.
+
+Answers:
+
+Which installation would you like to choose? (1/2/3/4/5/6) : 2. Install the Raspberry Pi Audio Receiver Home Installation 
+
+Do you want all the Devices to use the same name? (y/n) : y 
+
+Device name: vitadock 
+
+Airplay password (y/n): n 
+
+Which Sound Card are you using? (0/1/2/3/4/5/6/7/8/9/10/11) : 0. No Sound Card
+
+
+5 - Reboot the pi when it is finished.
 
 # Setup VLC for Vita Streaming
 
@@ -98,48 +140,6 @@ vlc v4l2:///dev/video0 :v4l2-standard= :live-caching=0
 ```
 To Close the "stream" press the S key on your keyboard. 
 
-4 - Setup your pi as a BT Reciver and send the vits's sound to your tv via hdmi. 
-------
-Since we are using a BT dongle add dtoverlay=pi3-disable-bt to your /boot/config.txt.
-
-Once again use putty or terminal on the raspberry pi
-```
-sudo nano /boot/config.txt
-```
-and add 
-```
-dtoverlay=pi3-disable-bt
-```
-Save (CTRL +x), hit Y, then enter.
-
-Then reboot. 
-
-Once again use Putty or your Pi's terminal
--------------
-
-Copy and paste the following, and press enter, Then follow the on screen prompts.
-```
-git clone https://github.com/bareinhard/super-simple-raspberry-pi-audio-receiver-install
-cd super-simple-raspberry-pi-audio-receiver-install
-git checkout stretch-fix
-sudo ./install.sh
-```
-During the setup it will ask you some questions. Here were my answers.
-
-Answers:
-
-Which installation would you like to choose? (1/2/3/4/5/6) : 2. Install the Raspberry Pi Audio Receiver Home Installation 
-
-Do you want all the Devices to use the same name? (y/n) : y 
-
-Device name: vitadock 
-
-Airplay password (y/n): n 
-
-Which Sound Card are you using? (0/1/2/3/4/5/6/7/8/9/10/11) : 0. No Sound Card
-
-
-5 - Reboot the pi when it is finished.
 --------
 You're Done. 
 
