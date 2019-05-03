@@ -53,10 +53,9 @@ sudo apt-get update && sudo apt-get -y upgrade
 - (Optional) If you want to use [Putty](https://www.putty.org/), here is a quick [tutorial](https://youtu.be/h3_zNvAvJtE).
 
 Putty allows you to use a PC to input these commands. Don't forget to enable SSH on the pi. 
----------
 
-# - Setup your pi as a BT Reciver and send the vits's sound to your tv via hdmi. 
-------
+# Setup your pi as a BT Reciver and send the vits's sound to your tv via hdmi. 
+
 Since we are using a BT dongle add dtoverlay=pi3-disable-bt to your /boot/config.txt.
 
 - Use putty or terminal on the raspberry pi
@@ -72,7 +71,6 @@ dtoverlay=pi3-disable-bt
 - Then reboot. 
 
 Once again use Putty or your Pi's terminal
--------------
 
 - Copy and paste the following, and press enter, Then follow the on screen prompts.
 ```
@@ -103,7 +101,7 @@ Which Sound Card are you using? (0/1/2/3/4/5/6/7/8/9/10/11) : 0. No Sound Card
 1 - Settig up vlc for viedo streaming from the Vita
 ----------
 Using PC: 
------------
+
 - Use Putty to connect to your Pi. Copy and paste the following commands, pressing enter after you paste:
 ```
 sudo apt-get -y remove vlc libvlc-bin libvlc5 vlc-bin vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization && cd /home/pi/Desktop && wget https://raw.githubusercontent.com/CrashCortez/vitadock/master/vitasetup.sh && wget https://raw.githubusercontent.com/CrashCortez/vitadock/master/RunPSVITA.sh && sudo chmod a+x /home/pi/Desktop/*.sh && sudo reboot
@@ -113,7 +111,7 @@ sudo apt-get -y remove vlc libvlc-bin libvlc5 vlc-bin vlc-data vlc-l10n vlc-plug
 cd /home/pi/Desktop && sudo bash vitasetup.sh
 ```
 Using Pi: 
------------
+
 - Now open terminal (black icon, last right icon next to raspberry icon in top left corner) and copy and paste the following:
 ```
 sudo apt-get -y remove vlc libvlc-bin libvlc5 vlc-bin vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization && cd Desktop && wget https://raw.githubusercontent.com/CrashCortez/vitadock/master/vitasetup.sh && wget https://raw.githubusercontent.com/CrashCortez/vitadock/master/RunPSVITA.sh && sudo chmod a+x /home/pi/Desktop/*.sh && sudo reboot
@@ -121,13 +119,13 @@ sudo apt-get -y remove vlc libvlc-bin libvlc5 vlc-bin vlc-data vlc-l10n vlc-plug
 After reboot, Run script vitasetup.sh (when asked click in terminal), script will automatically reboot your raspberry pi when finished.
 
 - After reboot move to the pi, if you were using putty on a pc. 
---------
 
-On the Raspberry pi desktop, left click raspberry icon, then left click Sound & Video, left click VLC, left click tools, than left click preferences than right click video, than left click output box left to output letters and choose "OpenMAX IL video output", then left click save [YOU'll ONLY NEED TO DO THIS ONCE]
+
+- On the Raspberry pi desktop, left click raspberry icon, then left click Sound & Video, left click VLC, left click tools, than left click preferences than right click video, than left click output box left to output letters and choose "OpenMAX IL video output", then left click save [YOU'll ONLY NEED TO DO THIS ONCE]
 
 - Now test your "stream" 
 ------
-To launch the vita "stream" you can: 
+- To launch the vita "stream" you can: 
 
 A) Run the RunPSVITA.sh script 
 
@@ -152,7 +150,7 @@ How to shutdown the system
 
 Hit S on your keyboard, and shutdown normally.
 
-With command line (Raspbian lite or via SSH)
+- With command line (Raspbian lite or via SSH)
 ```
 sudo shutdown
 ```
