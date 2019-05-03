@@ -33,17 +33,17 @@ Here is what you will need for this build.
 # Setup your OS
 
 - Download Raspbian lite or with a desktop from:
--------
+
 [Raspberrypi.org downloads](https://www.raspberrypi.org/downloads/raspbian/), remember to use the lite or desktop, NOT the desktop with recomended software.
 
 - Using Win32diskimager or etcher, "write" the unzipped Raspbian image to your SD Card. 
-------
+
 - Once done remove the SD Card from PC and put your card in you pi and boot it up.
-------
+
 - After the first boot set your time zone, language etc. [DO NOT SKIP UPDATE ONCE ASKED] 
---------
+
 - Once everything is done restart your raspberry pi (system message will appear asking you to press reboot).
----------
+
 or 
 
 If you have a card with Raspbian Stretch or used the lite version update and upgrade
@@ -51,7 +51,7 @@ If you have a card with Raspbian Stretch or used the lite version update and upg
 sudo apt-get update && sudo apt-get -y upgrade
 ```
 - (Optional) If you want to use [Putty](https://www.putty.org/), here is a quick [tutorial](https://youtu.be/h3_zNvAvJtE).
----------
+
 Putty allows you to use a PC to input these commands. Don't forget to enable SSH on the pi. 
 ---------
 
