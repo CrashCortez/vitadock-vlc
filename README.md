@@ -188,9 +188,6 @@ Notes :
 
 - Fallow https://twitter.com/x_corra for updates 🙂
 
-- If you want to buy pre-configured sd card contact me via twitter 🙂
-
-- Switch to Vita update/demo in 2 days!!!
 
 --------------------------------------------------------------------------
 
