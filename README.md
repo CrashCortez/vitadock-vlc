@@ -118,7 +118,7 @@ chmod +x /home/pi/Desktop/RunPSVITA.sh
 
 3- Run script s1(when asked click in terminal), script will automatically reboot your raspberry pi when finished, when asked press Y
 
-3- Run script s2(when asked click in terminal), script will automatically reboot your raspberry pi when finished, when asked press Y
+4- Run script s2(when asked click in terminal), script will automatically reboot your raspberry pi when finished, when asked press Y
 
 5- After reboot, left click raspberry icon, then left click Sound & Video, left click VLC, left click tools, than left click preferences than right click video, than left click output box left to output letters and choose OpenMAX IL video output, then left click save [ONLY ONCE YOU NEED TO DO THIS]
 
