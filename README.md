@@ -98,77 +98,99 @@ Which Sound Card are you using? (0/1/2/3/4/5/6/7/8/9/10/11) : 0. No Sound Card
 
 # Setup VLC for Vita Streaming
 
-Using PC: 
+Here is the script update I promised in the initial tutorial 😉, also I apologize it took so long, but I was doing this and working on Switch to vita bit I didn't expect that switch to vita software side will be so complicated so that took most of my time, again my apologies 😕
 
-- Use Putty to connect to your Pi. Copy and paste the following commands, pressing enter after you paste:
-```
-sudo apt-get -y remove vlc libvlc-bin libvlc5 vlc-bin vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization && cd /home/pi/Desktop && wget https://raw.githubusercontent.com/CrashCortez/vitadock/master/vitasetup.sh && wget https://raw.githubusercontent.com/CrashCortez/vitadock/master/RunPSVITA.sh && sudo chmod a+x /home/pi/Desktop/*.sh && sudo reboot
-```
-- Let your pi finish booting, then Using putty log back in, then run the the vitasetup.sh script. Copy and paste the following 
-```
-cd /home/pi/Desktop && sudo bash vitasetup.sh
-```
-Using Pi: 
+- Hacked PSVITA Henkaku/enso/h-encore with uvc plugin by xerpi
 
-- Now open terminal (black icon, last right icon next to raspberry icon in top left corner) and copy and paste the following:
-```
-sudo apt-get -y remove vlc libvlc-bin libvlc5 vlc-bin vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization && cd Desktop && wget https://raw.githubusercontent.com/CrashCortez/vitadock/master/vitasetup.sh && wget https://raw.githubusercontent.com/CrashCortez/vitadock/master/RunPSVITA.sh && sudo chmod a+x /home/pi/Desktop/*.sh && sudo reboot
-```
-After reboot, Run script vitasetup.sh (when asked click in terminal), script will automatically reboot your raspberry pi when finished.
+- 2 hours of your time
 
-- After reboot move to the pi, if you were using putty on a pc. 
+- Raspberry PI (tested only on pi 3 b+, all pi 3 and all pi 2 version will work, others like zero etc. wontbecause the gpu isn’t powerful enough)
 
+- 2 amp charger (best would be 3 amp charger if you have it)
 
-- On the Raspberry pi desktop, left click raspberry icon, then left click Sound & Video, left click VLC, left click tools, than left click preferences than right click video, than left click output box left to output letters and choose "OpenMAX IL video output", then left click save [YOU'll ONLY NEED TO DO THIS ONCE]
+- Micro sd MIN 16GB for Raspberry PI (I recommend using a slower sd card as faster ones tend to fail a lot, tested about 9 sd cards, 2 fastest ones got corrupted, also 1 sandisk card got corrupted so I do not recommend them)
 
-- Now test your "stream" 
-------
-- To launch the vita "stream" you can: 
+- Any archiving software that has extracting functionality on
 
-A) Run the RunPSVITA.sh script 
+- Mouse, keyboard, hdmi cable for for raspberry pi
 
-B) Open vlc -> media -> open capture device -> set video device to /dev/video0 -> set live caching to 0 -> Play 
+- Vita usb cable
 
-[BOTH METHODS MIGHT TAKE 2 ~ 3 TRIES]
+- WIFI OR LAN (only first time)
 
-- or via command line
-```
-vlc v4l2:///dev/video0 :v4l2-standard= :live-caching=0
-```
-- To Close the "stream" press the S key on your keyboard. 
+- Script 1 : http://www.mediafire.com/file/an79zlgkflhadth/s1.sh/file
 
---------
-- You're Done. 
+- Script 2 : http://www.mediafire.com/file/07v00h7ib75900g/s2.sh/file
 
-Connect your Vita to the Pi, launch the RunPSVITA.sh for video, and connect to the vitadock via Bluetooth for sound Grab a ps4 controller and sit on your couch and play your vita on your tv.
+- Script 3 : http://www.mediafire.com/file/5qcuqeqnse87ltl/RunPSVITA.sh/file
 
-How to shutdown the system
-----
-- With Desktop
+---------------------------------------------------------------------------------------------------------------------------
 
-Hit S on your keyboard, and shutdown normally.
+1- Make sure that ONLY Mouse, keyboard and HDMI are plugged in the pi, without charging cable
 
-- With command line (Raspbian lite or via SSH)
-```
-sudo shutdown
-```
+2- Download noobs software from here https://www.raspberrypi.org/downloads/noobs/
 
+3- Make a desktop folder named FSD
 
-# Notes :
+4- Extract files from downloaded noobs RAR file to FSD folder you created
 
-If you want a premade plug and play system check out [xCorra's indegogo](https://www.indiegogo.com/projects/psvita-dock#/)
+5- Insert Micro SD into your PC and format it with this tool as fat32 https://www.sdcard.org/downloads/formatter_4/
+
+6- After formatting copy files from FSD folder to SD (NOT THE FOLDER JUST FILES WITHIN THE FOLDER)
+
+7- When copied EJECT SD card with software first and then pull it out and put in Raspberry PI (its located on the back of the Raspberry pi board)
+
+8- After putting SD card in Raspberry pi plug the charging cable into Raspberry PI
+
+9- When running for the first time it will ask you what OS you want to install, chose Raspberrian by clicking the empty box left from it, once checked click install, press yes on all the boxers that appear
+
+10- After installing set your time zone, language etc. [AND DO NOT SKIP UPDATE ONCE ASKED!!!]
+
+11- After everything is done restart your raspberry pi (system message will appear asking you to press reboot)
+
+12- After rebooting open your browser(blue icon right next to raspberry icon in top left corner), open this reddit post and download scripts s1, s2 and RunPSVITA, once downloaded press ctrl+j on your keyboard, than click show in folder, than drag and drop 3 downloaded scripts to your desktop
+
+13- Now open terminal(black icon, last right icon next to raspberry icon in top left corner) and copy and paste the fallowing, this will allow the scripts to be executable(after copying 1st press enter, than 2nd press enter,3rd press enter):
+
+chmod +x /home/pi/Desktop/s1.sh
+
+chmod +x /home/pi/Desktop/s2.sh
+
+chmod +x /home/pi/Desktop/RunPSVITA.sh
+
+14- Run script s1(when asked click in terminal), script will automatically reboot your raspberry pi when finished, when asked press Y
+
+15- Run script s2(when asked click in terminal), script will automatically reboot your raspberry pi when finished, when asked press Y
+
+16- After reboot, left click raspberry icon, then left click Sound & Video, left click VLC, left click tools, than left click preferences than right click video, than left click output box left to output letters and choose OpenMAX IL video output, then left click save [ONLY ONCE YOU NEED TO DO THIS]
+
+17- To launch vita stream you can A) run the 3rd script, or 😎 open vlc -> media -> open capture device -> set video device to /dev/video0 -> set live caching to 0 -> Play [BOTH METHODS MIGHT TAKE 2 ~ 3 TRIES]
+
+18- When closing stream press s, than close vlc!
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Notes :
 
 - Runs upscaled 1080 30fps, ~2 frame latency
 
+- Proof https://www.youtube.com/watch?v=0ldvrnjzig4
+
 - You can use xerpi's ds3/4 plugin to use controller with vita
 
-- For audio I recommend usb bluetooth because you cannot use the onboard BT (testing this). using a usb sound card has lots of additional white noise and distortion, feel free to try on your own, if you figure it out, please let me know.
+- For audio i recommend usb sound card, with aux cable connected to vita's aux to usb audio cards microphone input, also disable usb power on vita to get rid of hissing sound [raspberry cant charge vita anyway]
 
-- I used [BaReinhard's Super Simple Raspberry Pi Audio Receiver Install](https://github.com/BaReinhard/Super-Simple-Raspberry-Pi-Audio-Receiver-Install) for the BT Sound setup, all credit for the BT sound setup goes to him.
+- If you have raspberrian from before update it to stretch
 
-- Find a dock and get it printed on [Thingverse](https://www.thingiverse.com/search?q=vita+raspberry+pi&dwh=875cb8a1f5323f8)
+- Some games may crush, i'm aware and i'm working on a WIFI solution for those games 🙂
 
-# Huge Thanks to xCorra and xerpi.
+- Check out my other ongoing project /r/vitahacks/comments/a632e9/switch_to_vita/
+
+- Fallow https://twitter.com/x_corra for updates 🙂
+
+- If you want to buy pre-configured sd card contact me via twitter 🙂
+
+- Switch to Vita update/demo in 2 days!!!
 
 --------------------------------------------------------------------------
 
