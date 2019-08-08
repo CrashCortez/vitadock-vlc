@@ -62,7 +62,7 @@ or TheFlow's MiniVitaTV plugin
 
 -> my app - https://github.com/xCorra/SwitchtoPSTV/releases/download/1.0/SwitchtoPSTV.vpk
 
--Raspberry Pi with 12V 3A power adapter (it can be lower then that but then PSVITA will charger slower)
+-Raspberry Pi with 5V 3A power adapter (it can be lower then that but then PSVITA will charger slower)
 
 -PC to flash the premade IMG to SD card
 
