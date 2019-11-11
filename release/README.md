@@ -3,28 +3,38 @@ Crash's VitaDock VLC
 For the Pi3b+/a+
 ---------------
 Do not update this image, it will break it. 
----------------
-
+--------------
 VLC
+
 BT Reciever
+
 ZRam
+
 FileZilla
 
 Auto start/stop vlc stream at usb plug in/out
+
 On/off script For momentary button (pins 5 and 6)
+
 On board BT working
+
 WiFi working - use 5GHz 2.4ghz can case audio issues (US WiFi country)
 
 -------------
 SSH  info
+
 hostname: vitadock 
+
 user: pi  
+
 password: raspberry 
 
 FileZilla:
+
 Have The VitaDock and your PS Vita on the same network and use  Molecule And SSH over files. Attach a thumb drive or HDD storage to your VitaDock and you can manage your games and files with the dock itself. 
  
 Bluetooth:
+
 Name: vitadock 
 
 Note the VitaDock is also a BT receiver, and will act as such sending sound to your tv (tested with iPhone and Android phone).  
