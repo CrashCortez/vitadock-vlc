@@ -1,20 +1,20 @@
-CrashÅfs VitaDock VLC
+Crash's VitaDock VLC
 For the Pi3b+/a+
-??????????
+---------------
 Do not update this image, it will break it. 
-??????????
+---------------
 
 VLC
 BT Reciever 
 ZRam 
 FileZilla
 
-?Auto start/stop vlc ÅgstreamÅh at usb plug in/out
-?On/off script For momentary button (pins 5 and 6)
-?On board BT working
-?WiFi working - use 5GHz 2.4ghz can case audio issues (US WiFi country)
+Auto start/stop vlc ¬Ågstream¬Åh at usb plug in/out
+On/off script For momentary button (pins 5 and 6)
+On board BT working
+WiFi working - use 5GHz 2.4ghz can case audio issues (US WiFi country)
 
-????????????
+-------------
 SSH  info
 hostname: vitadock 
 user: pi  
@@ -30,16 +30,16 @@ Note the VitaDock is also a BT receiver, and will act as such sending sound to y
 
 Note the BT on the vita is old closer the vita is to the dock the better the sound quality. This might impact sound on the desktop, since the VitaDock is essentially a BT speaker. 
 
-There is some latency, yes, and I would not use it for a fps competition, but I was able to play dragonÅfs lair with a PS4 controller. [Watch Test Video](https://youtu.be/j-mcQHRgISE)
+There is some latency, yes, and I would not use it for a fps competition, but I was able to play dragon¬Åfs lair with a PS4 controller. [Watch Test Video](https://youtu.be/j-mcQHRgISE)
 
-This has been fully tested on the pi3b+ and the pi3a+ with a ÅgfatÅh PS Vita and XerpiÅfs 1.4 UCDC and his PS4 controller plugin from auto plugin vpk. 
+This has been fully tested on the pi3b+ and the pi3a+ with a "Fat" PS Vita and Xerpi's 1.4 UCDC and his PS4 controller plugin from auto plugin vpk. 
 
 On my setup with an el gato capture card, I could not capture a good video. It was jumpy and sound was bad on the video. The VitaDock preformed perfectly even if the capture was bad.  Others have had no issues witch video/audio captures. 
 
-????????????
+---------------
 Huge shout out to the original VitaDock team: Bu (m0tie), ZoidBerg, and his wife Si (icon and video), David-OX, SilentNight and Crash. 
 
 Special thanks to Xerpi (UCDC_UVC plugin, DS3 and DS4 plguins) and TheFlow (MiniVitaTV). For with out their work none of this would be possible. 
 
-?????????
+------------
 Link: [Download](link here)
