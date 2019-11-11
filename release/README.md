@@ -4,12 +4,14 @@
 ![image](https://github.com/CrashCortez/vitadock-vlc/blob/master/icon/mini.png)
 
 
-For the Pi3b+/a+
+For the Pi3b+/a+, or Pi3b with bt dongle
 ---------------
 ![image](https://github.com/CrashCortez/vitadock-vlc/blob/master/icon/pi.png)
 
+
 -------------
-Do not update this image, it will break it. 
+
+# Do not update this image, it will break it. 
 --------------
 
 
@@ -27,7 +29,9 @@ Auto start/stop vlc stream at usb plug in/out
 
 On/off script For momentary button (pins 5 and 6)
 
-On board BT working
+On board BT working (pi3b+ pi3a+ only)
+
+BT switch script from external to internal and vice versa
 
 WiFi working - use 5GHz 2.4ghz can case audio issues (US WiFi country)
 
