@@ -6,8 +6,15 @@
 
 For the Pi3b+/a+
 ---------------
+![image](https://github.com/CrashCortez/vitadock-vlc/blob/master/icon/pi.png)
+
+-------------
 Do not update this image, it will break it. 
 --------------
+
+
+# This image includes
+
 VLC
 
 BT Reciever
