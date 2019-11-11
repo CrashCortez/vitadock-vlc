@@ -1,6 +1,8 @@
 # Crash's VitaDock VLC
 
+![image](https://github.com/CrashCortez/vitadock-vlc/blob/master/icon/wooden.jpg)
 ![image](https://github.com/CrashCortez/vitadock-vlc/blob/master/icon/mini.png)
+
 
 For the Pi3b+/a+
 ---------------
