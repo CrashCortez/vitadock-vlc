@@ -6,8 +6,8 @@ Do not update this image, it will break it.
 ---------------
 
 VLC
-BT Reciever 
-ZRam 
+BT Reciever
+ZRam
 FileZilla
 
 Auto start/stop vlc stream at usb plug in/out
