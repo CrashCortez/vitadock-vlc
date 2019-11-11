@@ -29,10 +29,12 @@ user: pi
 
 password: raspberry 
 
+-----------------
 FileZilla:
 
 Have The VitaDock and your PS Vita on the same network and use  Molecule And SSH over files. Attach a thumb drive or HDD storage to your VitaDock and you can manage your games and files with the dock itself. 
  
+--------------------- 
 Bluetooth:
 
 Name: vitadock 
