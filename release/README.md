@@ -1,4 +1,5 @@
 Crash's VitaDock VLC
+
 For the Pi3b+/a+
 ---------------
 Do not update this image, it will break it. 
@@ -9,7 +10,7 @@ BT Reciever
 ZRam 
 FileZilla
 
-Auto start/stop vlc gstreamh at usb plug in/out
+Auto start/stop vlc stream at usb plug in/out
 On/off script For momentary button (pins 5 and 6)
 On board BT working
 WiFi working - use 5GHz 2.4ghz can case audio issues (US WiFi country)
@@ -30,7 +31,7 @@ Note the VitaDock is also a BT receiver, and will act as such sending sound to y
 
 Note the BT on the vita is old closer the vita is to the dock the better the sound quality. This might impact sound on the desktop, since the VitaDock is essentially a BT speaker. 
 
-There is some latency, yes, and I would not use it for a fps competition, but I was able to play dragonfs lair with a PS4 controller. [Watch Test Video](https://youtu.be/j-mcQHRgISE)
+There is some latency, yes, and I would not use it for a fps competition, but I was able to play Dragon's Lair with a PS4 controller. [Watch Test Video](https://youtu.be/j-mcQHRgISE)
 
 This has been fully tested on the pi3b+ and the pi3a+ with a "Fat" PS Vita and Xerpi's 1.4 UCDC and his PS4 controller plugin from auto plugin vpk. 
 
