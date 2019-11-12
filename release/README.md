@@ -1,4 +1,4 @@
-# Crash's VitaDock VLC
+# VitaDock VLC Final
 
 ![image](https://github.com/CrashCortez/vitadock-vlc/blob/master/icon/wooden.jpg)
 ![image](https://github.com/CrashCortez/vitadock-vlc/blob/master/icon/mini.png)
@@ -29,11 +29,13 @@ Auto start/stop vlc stream at usb plug in/out
 
 On/off script For momentary button (pins 5 and 6)
 
-On board BT working (pi3b+ pi3a+ only)
+On board BT working (pi3b+, pi3a+ only)
 
 BT switch script from external to internal and vice versa
 
 WiFi working - use 5GHz 2.4ghz can case audio issues (US WiFi country)
+
+Enable/Disable scripts for, boot video, Vita notification, and boot text.
 
 -------------
 SSH  info
@@ -58,7 +60,8 @@ Name: vitadock
 
 Note the VitaDock is also a BT receiver, and will act as such sending sound to your tv (tested with iPhone and Android phone).  
 
-Note the BT on the vita is old closer the vita is to the dock the better the sound quality. This might impact sound on the desktop, since the VitaDock is essentially a BT speaker. 
+Note the BT on the vita is old, the closer the vita is to the dock the better the sound quality.
+
 
 There is some latency, yes, and I would not use it for a fps competition, but I was able to play Dragon's Lair with a PS4 controller. [Watch Test Video](https://youtu.be/j-mcQHRgISE)
 
