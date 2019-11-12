@@ -4,7 +4,7 @@
 ![image](https://github.com/CrashCortez/vitadock-vlc/blob/master/icon/mini.png)
 
 
-For the Pi3b+/a+, or Pi3b with bt dongle
+For the Pi4b, Pi3b+/a+, or Pi3b with bt dongle
 ---------------
 ![image](https://github.com/CrashCortez/vitadock-vlc/blob/master/icon/pi.png)
 
@@ -73,7 +73,7 @@ Yes very minimal to none, and I would not use it for a fps competition, but I wa
 
 What Pi can I use to build the VitaDock? 
 -----
-Pi3b/b+/a+ have all been tested and work. This has been fully tested by Crash on the pi3b+ and the pi3a+ with a "Fat" PS Vita and Xerpi's 1.4 UCDC and his PS4 controller plugin from auto plugin vpk. This image has also been tested by M0tie with a "Slim" Vita and a pi3b with a dongle and the same plugins.
+Pi4b, Pi3b/b+/a+ have all been tested and work. This has been fully tested by Crash on the pi3b+ and the pi3a+ with a "Fat" PS Vita and Xerpi's 1.4 UCDC and his PS4 controller plugin from auto plugin vpk. This image has also been tested by M0tie with a "Slim" Vita with a pi4b and a pi3b (with a dongle) and the same plugins.
 
 Can I use a Vita Dock with a capture card?
 -----
