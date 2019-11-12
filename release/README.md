@@ -72,4 +72,4 @@ Huge thank you to the original VitaDock team: Bu (m0tie), ZoidBerg, and his wife
 Special thanks to Xerpi (UCDC_UVC plugin, DS3 and DS4 plguins) and TheFlow (MiniVitaTV). For with out their work none of this would be possible. 
 
 ------------
-Link: [Download](link here)
+Link: [Download](https://drive.google.com/file/d/1athBPeKyaEyIVlC-bIuqu38SslV-cSaj/view?usp=drivesdk)
