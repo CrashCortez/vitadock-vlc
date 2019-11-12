@@ -31,7 +31,7 @@ Auto start/stop vlc stream at usb plug in/out
 
 On/off script For momentary button (pins 5 and 6)
 
-On board BT working (pi3b+, pi3a+ only)
+On board BT working (pi4b, pi3b+, pi3a+ only)
 
 BT switch script from external to internal and vice versa
 
