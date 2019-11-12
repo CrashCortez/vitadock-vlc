@@ -1,4 +1,8 @@
+![image](https://github.com/CrashCortez/vitadock-vlc/blob/master/icon/VitaDocklogo.png)
 # VitaDock VLC Final
+
+
+-----------
 
 ![image](https://github.com/CrashCortez/vitadock-vlc/blob/master/icon/wooden.jpg)
 ![image](https://github.com/CrashCortez/vitadock-vlc/blob/master/icon/mini.png)
