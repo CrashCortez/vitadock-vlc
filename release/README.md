@@ -6,9 +6,10 @@
 
 For the Pi4b, Pi3b+/a+, or Pi3b with bt dongle
 ---------------
+![image](https://github.com/CrashCortez/vitadock-vlc/blob/master/icon/pi4.jpg)
 ![image](https://github.com/CrashCortez/vitadock-vlc/blob/master/icon/pi.jpg)
 ![image](https://github.com/CrashCortez/vitadock-vlc/blob/master/icon/pi3b.jpg)
-![image](https://github.com/CrashCortez/vitadock-vlc/blob/master/icon/pi4.jpg)
+
 -------------
 
 # Updating this image CAN break the custom VLC build, update at your own risk. 
