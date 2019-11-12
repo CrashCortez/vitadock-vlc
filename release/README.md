@@ -65,18 +65,31 @@ Note the VitaDock is also a BT Receiver/Speaker, and will act as such sending so
 Note the BT on the vita is old, the closer the vita is to the dock the better the sound quality.
 
 -----------------
-Notes
+# FAQ
 ----
-Is there latency? Yes very minimal to none, and I would not use it for a fps competition, but I was able to play Dragon's Lair with a PS4 controller. [Watch Test Video](https://youtu.be/j-mcQHRgISE)
+Is there latency?
+---
+Yes very minimal to none, and I would not use it for a fps competition, but I was able to play Dragon's Lair with a PS4 controller. [Watch Test Video](https://youtu.be/j-mcQHRgISE)
 
-This has been fully tested on the pi3b+ and the pi3a+ with a "Fat" PS Vita and Xerpi's 1.4 UCDC and his PS4 controller plugin from auto plugin vpk. 
+What Pi can I use to build the VitaDock? 
+-----
+Pi3b/b+/a+ have all been tested and work. This has been fully tested by Crash on the pi3b+ and the pi3a+ with a "Fat" PS Vita and Xerpi's 1.4 UCDC and his PS4 controller plugin from auto plugin vpk. This image has also been tested by M0tie with a "Slim" Vita and a pi3b with a dongle and the same plugins.
 
-On my setup with an el gato capture card, I could not capture a good video. It was jumpy and sound was bad on the video. The VitaDock preformed perfectly even if the capture was bad.  Others have had no issues witch video/audio captures. 
+Can I use a Vita Dock with a capture card?
+-----
+On my setup with an el gato capture card, I could not capture a good video. It was jumpy and sound was bad on the video. The VitaDock preformed perfectly even if the capture was bad. Others have had no issues witch video/audio captures. 
 
+
+
+Credits
 ---------------
-Huge thank you to the original VitaDock team: Bu (m0tie), ZoidBerg, and his wife Si (icon and video), David-OX, SilentNight and Crash. 
+Thank you M0tie for coming back and helping me with this final image release.
 
-Special thanks to Xerpi (UCDC_UVC plugin, DS3 and DS4 plguins) and TheFlow (MiniVitaTV). For with out their work none of this would be possible. 
+Huge Thank You to the original VitaDock team: Bu (m0tie), ZoidBerg, and his wife Si (icon and video), David-OX, SilentNight and Crash. 
 
+Special Thanks to Xerpi (UCDC_UVC plugin, DS3 and DS4 plguins) and TheFlow (MiniVitaTV). For with out their work none of this would be possible. 
+
+-----
+# Download link
 ------------
 VitaDock VLC Final pre-made image: [Download](https://drive.google.com/file/d/1athBPeKyaEyIVlC-bIuqu38SslV-cSaj/view?usp=drivesdk)
