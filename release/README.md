@@ -65,7 +65,9 @@ Note the VitaDock is also a BT Receiver/Speaker, and will act as such sending so
 Note the BT on the vita is old, the closer the vita is to the dock the better the sound quality.
 
 -----------------
-There is some latency, yes, and I would not use it for a fps competition, but I was able to play Dragon's Lair with a PS4 controller. [Watch Test Video](https://youtu.be/j-mcQHRgISE)
+Notes
+----
+Is there latency? Yes very minimal to none, and I would not use it for a fps competition, but I was able to play Dragon's Lair with a PS4 controller. [Watch Test Video](https://youtu.be/j-mcQHRgISE)
 
 This has been fully tested on the pi3b+ and the pi3a+ with a "Fat" PS Vita and Xerpi's 1.4 UCDC and his PS4 controller plugin from auto plugin vpk. 
 
