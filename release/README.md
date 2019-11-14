@@ -82,8 +82,9 @@ Pi4b, Pi3b/b+/a+ have all been tested and work. This has been fully tested by Cr
 
 Can I use a Vita Dock with a capture card?
 -----
-On my setup with an el gato capture card, I could not capture a good video. It was jumpy and sound was bad on the video. The VitaDock preformed perfectly even if the capture was bad. Others have had no issues witch video/audio captures. 
+Yes you can, you can use it without a tv and directly liknked to the capture card. You can record or live stream to your preffered streaming platform. [VitaDock Live Stream test with Mic](https://youtu.be/m7foTsJdrdQ)
 
+Note: I would use a BT dongle if you are going to live stream, the sound quality is a bit better but not required.
 
 
 Credits
